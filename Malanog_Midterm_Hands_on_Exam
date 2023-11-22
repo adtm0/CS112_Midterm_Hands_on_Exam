@@ -1,13 +1,42 @@
 import random
-
 num1 = random.randint(1,99)
 num2 = random.randint(1,99)
+num3 = random.randint(1,99)
+num4 = random.randint(1,99)
+num5 = random.randint(1,99)
+num6 = random.randint(1,99)
+num7 = random.randint(1,99)
+num8 = random.randint(1,99)
 
 print(f"What is {num1} + {num2}?")
 
 answer = int(input(f"{num1} + {num2} = "))
 
 if answer == (num1 + num2):
+	print("Your answer is correct!")
+else:
+	print("Your answer is incorrect!")
+	
+print(f"\nWhat is {num3} - {num4}?")
+
+answer = int(input(f"{num3} - {num4} = "))
+if answer == (num3 - num4):
+	print("Your answer is correct!")
+else:
+	print("Your answer is incorrect!")
+
+print(f"\nWhat is {num5} * {num6}?")
+
+answer = int(input(f"{num5} * {num6} = "))
+if answer == (num5 * num6):
+	print("Your answer is correct!")
+else:
+	print("Your answer is incorrect!")
+
+print(f"\nWhat is {num7} / {num8}?")
+
+answer = int(input(f"{num7} / {num8} = "))
+if answer == (num7 / num8):
 	print("Your answer is correct!")
 else:
 	print("Your answer is incorrect!")
