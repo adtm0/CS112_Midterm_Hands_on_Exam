@@ -20,6 +20,7 @@ else:
 print(f"\nWhat is {num3} - {num4}?")
 
 answer = int(input(f"{num3} - {num4} = "))
+
 if answer == (num3 - num4):
 	print("Your answer is correct!")
 else:
@@ -28,6 +29,7 @@ else:
 print(f"\nWhat is {num5} * {num6}?")
 
 answer = int(input(f"{num5} * {num6} = "))
+
 if answer == (num5 * num6):
 	print("Your answer is correct!")
 else:
@@ -36,6 +38,7 @@ else:
 print(f"\nWhat is {num7} / {num8}?")
 
 answer = int(input(f"{num7} / {num8} = "))
+
 if answer == (num7 / num8):
 	print("Your answer is correct!")
 else:
